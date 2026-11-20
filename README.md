@@ -17,7 +17,7 @@ This is my solution for the QR code challenge.
 ## Overview
 ### Screenshot
 
-![Screenshot](./assets/images/working-screenshot.png)
+![Screenshot](./assets/images/qr-code-solution-improved.jpg)
 
 ### Links
 

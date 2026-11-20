@@ -15,6 +15,7 @@
 }
 
 body {
+    background: var(--slate-300);
     font-family: Outfit, sans-serif;
     font-size: 0.9375rem;
 }
@@ -28,7 +29,6 @@ body {
     width: 100%;
     min-height: 100vh;
     padding: 0 20px;
-    background: var(--slate-300);
 }
 
 .inside-box {
@@ -42,6 +42,7 @@ body {
     padding: 16px;
     background: var(--color-white);
     border-radius: 20px;
+    box-shadow: 0px 0px 20px var(--Slate-900);
 }
 
 .inside-box img {
@@ -77,7 +78,7 @@ body {
 
 /* FOOTER */
 .attribution {
-    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 0.6875rem;
     text-align: center;
 }
