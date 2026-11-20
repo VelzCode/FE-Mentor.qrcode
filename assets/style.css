@@ -27,7 +27,7 @@ body {
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    margin: 0 auto;
+    padding: 0 20px;
     background: var(--slate-300);
 }
 
@@ -38,14 +38,15 @@ body {
     align-items: center;
     width: 100%;
     max-width: 320px;
+    gap: 20px;
+    padding: 16px;
     background: var(--color-white);
     border-radius: 20px;
 }
 
 .inside-box img {
-    width: 288px;
-    height: 288px;
-    margin: 16px 16px 22px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -55,19 +56,20 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .type-wrapper h1 {
-    margin: 0 20px;
-    font-size: 1.35rem;
+    margin: 0 14px;
+    font-size: clamp(1.1rem, calc(8.71vw - 9.76px), 1.35rem);
     font-weight: 700;
     text-align: center;
     color: var(--Slate-900);
 }
 
 .type-wrapper p {
-    margin: 0 36px;
+    margin: 0 16px;
+    font-size: clamp(0.75rem, calc(6.94vw - 10px), 0.9375rem);
     font-weight: 400;
     text-align: center;
     color: var(--Slate-500);
@@ -83,3 +85,5 @@ body {
 .attribution a {
     color: var(--color-att);
 }
+
+/* RESPONSIVE */
